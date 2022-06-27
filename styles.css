@@ -331,15 +331,46 @@ h2{
   max-width: 180px;
 }
 
+.footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  background-color: var(--background-color);
+
+  color: white;
+}
+
+.footer-container{
+  padding: 25px 120px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer_link{
+  color: #fff;
+}
+
+.footer_icon{
+  font-size: 20px;
+}
+
 @media screen and (max-width:1000px){
 
   .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 25px;
   }
 
   .header{
+    height: 70px;
+    padding-top: 0px;
+    justify-content: space-between;
+  }
+  .nav{
     display: none;
   }
 
@@ -361,6 +392,9 @@ h2{
     gap: 60px;
   }
 
+  .footer-container{
+    padding: 25px;
+  }
 }
 
 @media screen and (max-width:850px) {
