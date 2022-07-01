@@ -197,6 +197,7 @@ h2{
   align-items: center;
   justify-content: center;
   text-align: center;
+  text-decoration: none;
   /* max-width: 420px; */
 }
 
@@ -394,6 +395,10 @@ h2{
 
   .footer-container{
     padding: 25px;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
   }
 }
 
