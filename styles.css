@@ -160,7 +160,8 @@ h2{
 .box-container{
   /* padding-top: 50px; */
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 70px;
   flex-wrap: wrap;
   padding-bottom: 80px;
 }
