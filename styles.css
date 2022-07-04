@@ -357,13 +357,14 @@ h2{
     padding: 0 25px;
   }
 
-  .header{
+  /* .header{
     height: 70px;
     padding-top: 0px;
     justify-content: space-between;
-  }
-  .nav{
-    display: none;
+  } */
+
+  .header{
+    padding-left: 90px;
   }
 
   .hero{
@@ -521,5 +522,38 @@ h2{
 @media screen and (max-width:400px) {
   .hero::before{
     height: 600px;
+  }
+}
+
+@media screen and (max-width:790px){
+  .header{
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width:520px){
+  .header{
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .nav{
+    order: 3;
+    flex: 100%;
+  }
+
+  .nav_item{
+    margin: 0 2%;
+  }
+
+  .nav_link{
+    font-size: 16px;
+  }
+
+  .nav_menu{
+    margin: 0;
+  }
+
+  .hero h2{
+    font-size: 2.1em;
   }
 }
